@@ -1,12 +1,14 @@
-langchain
-streamlit
-fastapi
-python-dotenv
+langchain>=0.1,<1.0
+langchain-community
 langserve
 fastapi
 uvicorn
 sse_starlette
+streamlit
+requests
+python-dotenv
+# RAG notebook (rag/simplerag.ipynb)
 bs4
 pypdf
+chromadb
 faiss-cpu
-lancedb
